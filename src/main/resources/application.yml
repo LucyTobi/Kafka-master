@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: 10.15.68.63:9092
+    consumer:
+      group-id: MyGroup
+
+  redis:
+    host: 10.15.68.57
+    port: 6379
